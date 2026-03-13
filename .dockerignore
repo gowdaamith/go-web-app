@@ -1,0 +1,59 @@
+# Git
+
+.git
+.gitignore
+.gitattributes
+
+# Docker
+
+Dockerfile
+docker-compose.yml
+
+# Build output
+
+bin/
+build/
+dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+main
+
+# Go build cache
+
+*.test
+*.out
+coverage.*
+
+# Logs
+
+*.log
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (if frontend exists)
+
+node_modules/
+
+# Environment files
+
+.env
+.env.*
+
+# Temporary files
+
+tmp/
+temp/
+
